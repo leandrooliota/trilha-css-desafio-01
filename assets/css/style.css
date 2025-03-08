@@ -57,8 +57,9 @@ p{
 h1 + p {
     font-size: 20px;
     letter-spacing: 1px;
-    text-align: center;
+    text-align: justify;
     margin: 16px 0 16px 0;
+    text-align-last: justify;
 }
 
 h2 + p{

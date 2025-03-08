@@ -100,13 +100,14 @@ img + p {
 button {
     width: 326px;
     height: 57px;
-    border: 2px solid -webkit-linear-gradient(#33A8DB, #1472B7);
-    border: 2px solid #1472B7;
+    border: 2px solid transparent;
+    border-image: linear-gradient( #33A8DB, #1472B7);
+    border-image-slice: 1;
     letter-spacing: 3px;
     line-height: 100%;
     text-transform: uppercase;
     background-color: transparent;
-    color: #1472B7;
+    color: #33A8DB;
     font-weight: 900;
     font-size: 16px;
     text-align: center;
